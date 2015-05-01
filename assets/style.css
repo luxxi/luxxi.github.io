@@ -8,6 +8,7 @@ html {
   min-height: 100%;
   position: relative;
   font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.1em;
 }
 
 .container {
@@ -31,4 +32,12 @@ img.me {
   height: 50px;
   padding: 15px;
   cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    width: 300px;
+    margin: 10px auto;
+    text-align: center;
+  }
 }
